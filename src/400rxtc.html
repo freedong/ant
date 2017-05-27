@@ -83,14 +83,15 @@
 </div>
 <div class="djs">
 	<span class="num">还剩</span>
-	<span class="num">09</span>
+	<span class="num" id="t_h">09</span>
 	<span class="num">:</span>
-	<span class="num">45</span>
+	<span class="num" id="t_m">45</span>
 	<span class="num">:</span>
-	<span class="num">49</span>
+	<span class="num" id="t_s">49</span>
 	<span class="num">结束</span>
+	
 </div>
-
+<span id="t_d" style="display:none;">00天</span>
 
 
 <div class="container">
@@ -103,7 +104,7 @@
 					<li>好记的400号码<span></span></li>
 					<li>行业特色的400号码<span></span></li>
 					<li>便宜的400号码<span></span></li>
-					<li>性价比高的400号码<span></span></li>
+					<li style=" border-right: 1px solid #888888;">性价比高的400号码<span></span></li>
 				</ul>
 			</div>
 			<div class="tab_list tabcon" style="margin-top: 12px;">
@@ -1044,7 +1045,7 @@
                             <input type="text" id=email name="email" value=""/><br/>-->
 
 
-							<label>你的预算：</label>
+							<label>你的预算：&nbsp;</label>
 							<select name="" class="four_select" id="budget">
 								<option value="5000元-10000元">5000元-10000元</option>
 								<option value="3000元-5000">3000元-5000元</option>
@@ -1052,25 +1053,26 @@
 								<option value="1000元以">1000元以下</option>
 								<option value="集团VIP">集团VIP</option>
 							</select>
-							<br />
+							<section style="width: 100%; height: 23px; background-color: #fff;"></section>
 
-							<label>合约年限：</label>
+							<label>合约年限：&nbsp;</label>
 							<select name="" class="four_select" id="pack_year">
 								<option value="2">2年</option>
 								<option value="3">3年</option>
 								<option value="1">1年</option>
 							</select>
-							<br />
+							<section style="width: 100%; height: 23px; background-color: #fff;"></section>
 
-							<label for="phone">联系方式：</label>
+							<label for="phone">联系方式：&nbsp;</label>
 							<input type="text" id=phone name="phone" value=""/><br/>
+				        	<section style="width: 100%; height: 23px; background-color: #fff;"></section>
 
-							<label for="comment" style="padding-left: 20px;">验证码：</label>
+							<label for="comment" style="padding-left: 18px;">验证码：&nbsp;</label>
 							<input type="text" id=comment name="comment"  class="comment width140" value=""/>
 							<img src="images/yzm.png" class="yzm"/>
 							<br/>
 
-							<input type="submit" id="sbutton" class="sbutton" value="立即定制"/>
+							<input type="submit" id="sbutton" class="sbutton" value="提交定制" style="margin-top: 33px;" />
 							<br/>
 
 						</section>
@@ -1459,6 +1461,35 @@
   </script>
 
 
+<script type="text/javascript">
+    function getRTime(){
+        var EndTime= new Date('3000/05/1 10:00:00'); //截止时间 前端路上 http://www.51xuediannao.com/qd63/
+        var NowTime = new Date();
+        var t =EndTime.getTime() - NowTime.getTime();
+        var d=Math.floor(t/1000/60/60/24);
+        var h=Math.floor(t/1000/60/60%24);
+        var m=Math.floor(t/1000/60%60);
+        var s=Math.floor(t/1000%60);
+		
+		if(d < 10){
+			 d = "0"+d;
+			}
+		if(h < 10){
+			 h = "0"+h;
+			}
+		if(m < 10){
+		 	m = "0"+m;
+			}
+		if(s < 10){
+			s = "0"+s;
+			}
+        document.getElementById("t_d").innerHTML = d;
+        document.getElementById("t_h").innerHTML = h;
+        document.getElementById("t_m").innerHTML = m;
+        document.getElementById("t_s").innerHTML = s;
+    }
+    setInterval(getRTime,1000);
+    </script>
 
 </body>
 </html>
