@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2d3c89-311d-4c38-8dbb-d37da567ef27" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/gnff6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/li5_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/li5_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/li5_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/tb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/uf_gq1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/vs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/zsdzk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/zyfw.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/400rx.css" afterPath="$PROJECT_DIR$/src/css/400rx.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/400rxtc.html" afterPath="$PROJECT_DIR$/src/400rxtc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/xt400dh.css" afterPath="$PROJECT_DIR$/src/css/xt400dh.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xt400dh.html" afterPath="$PROJECT_DIR$/src/xt400dh.html" />
     </list>
     <ignored path="ant_pc1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,8 +80,8 @@
       <file leaf-file-name="400rxtc.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/400rxtc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2034682">
-              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.5953757">
+              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -356,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/400rxtc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2034682">
-          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.5953757">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
