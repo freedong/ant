@@ -159,6 +159,25 @@
     float: left;
 }
 
+.choose_jz .choose_jz_div ul li .div_div{
+    width: 249px;
+    height: 136px;
+    overflow: hidden;
+
+
+}
+
+.choose_jz .choose_jz_div ul li .div_div img{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.choose_jz .choose_jz_div ul li:hover .div_div img{
+    transform: scale(1.1);
+}
+
 .choose_jz .choose_jz_div ul li h5{
     font-size: 16px;
     color: #d92763;
@@ -224,6 +243,8 @@
 
 .choose_kt .choose_kt_div ul li{
     float: left;
+    width: 212px;
+    height: 280px;
 }
 
 

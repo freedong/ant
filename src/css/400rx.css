@@ -379,7 +379,7 @@ position: absolute;z-index: 10;}
 }
 
 .container .rxtc_zx{
- margin-top: 150px;
+ margin-top: 50px;
 }
 
 
@@ -391,11 +391,12 @@ position: absolute;z-index: 10;}
 
 .container .rxtc_qiang ul li p{
  margin-top: 90px;
- font-size: 20px;
+ font-size: 19px;
  color: #ff005a;
  padding: 0px 39px;
  line-height: 24px;
  text-align: center;
+ font-weight: bold;
 }
 
 .container .rxtc_qiang ul li:hover{
@@ -404,7 +405,7 @@ position: absolute;z-index: 10;}
 
 .container .rxtc_qiang ul li:hover section.riangle-left{
  border-top: 85px solid #ffffff;
- border-left: 100px solid transparent;
+ border-left: 101px solid transparent;
  border-bottom: 100px solid transparent;
  border-right: 100px solid transparent;
 }
@@ -425,11 +426,11 @@ position: absolute;z-index: 10;}
 .container .rxtc_qiang ul li section.riangle-left{
  position: absolute;
  top: -2px;
- right: 0px;
+ right: -1px;
  width: 0;
  height: 0;
  border-top: 85px solid #ff005a;
- border-left: 100px solid transparent;
+ border-left: 101px solid transparent;
  border-bottom: 100px solid transparent;
  border-right: 100px solid transparent;
 }
@@ -498,31 +499,31 @@ position: absolute;z-index: 10;}
 }
 
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(1) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(2) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(3) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(4) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(5) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(6) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 .container .rxtc_bl .rxtc_bl_div ul li:nth-child(7) .xyd{
- top: 85px;
+ top: 86px;
  left: 65px;
 }
 
@@ -700,15 +701,16 @@ position: absolute;z-index: 10;}
 }
 
 .f_package .ul1 .li1 section.mflq a.mflq_a:hover{
- background: #d0d803;
- background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
- background: -moz-linear-gradient(135deg, transparent 5px, #f6ff00 0);
- background: -o-linear-gradient(135deg, transparent 5px, #f6ff00 0);
- background: -webkit-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
- background: -ms-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+ background: #cbd21b;
+ background: linear-gradient(135deg, transparent 5px, #cbd21b 0);
+ background: -moz-linear-gradient(135deg, transparent 5px, #cbd21b 0);
+ background: -o-linear-gradient(135deg, transparent 5px, #cbd21b 0);
+ background: -webkit-linear-gradient(-45deg, transparent 5px, #cbd21b 0);
+ background: -ms-linear-gradient(-45deg, transparent 5px, #cbd21b 0);
 
  box-shadow: none;
  color: #ff4b5a;
+ cursor: pointer;
 }
 
 .f_package .ul1 .li1 .mflq{
@@ -746,7 +748,7 @@ position: absolute;z-index: 10;}
 .yzm{
  display: inline;
  vertical-align: middle;
- height: 30px;
+ height: 35px;
  width: 70px;
 }
 
@@ -881,7 +883,7 @@ position: absolute;z-index: 10;}
 
 .f_package .ul1 .li1 .sec2 input{
  border: none;
- background-color: #f8f5f1;
+ background-color:#dcdcdc;
  width: 230px;
  height: 35px;
 
@@ -908,7 +910,7 @@ position: absolute;z-index: 10;}
 .f_package .ul1 .li1 .sec2 input:focus{
  background-color: #ffffff;
  border: 1px solid #ffbe5a;
- width: 213px;
+ width: 228px;
  height: 33px;
 }
 
@@ -929,8 +931,9 @@ position: absolute;z-index: 10;}
 
 }
 .f_package .ul1 .li1 .sec2 input.sbutton:hover{
- background-color: #db424f;
+ background-color: #b72053;
  cursor: pointer;
+ border: none;
 }
 
 .f_package .ul1 .li1 .sec2 input.sbutton:focus{
@@ -1198,6 +1201,26 @@ position: absolute;z-index: 10;}
 
 
 
+/*倒计时样式*/
+.djs .num1,.djs .num7{
+ color: #333333;
+ font-size: 16px;
+}
+
+
+.djs .num3,.djs .num5{
+ color: #333333;
+ font-size: 16px;
+}
+
+#t_h,#t_m,#t_s{
+ font-size: 16px;
+ color: #FFFFFF;
+ width: 26px;
+ height: 26px;
+ background-color: #d92763;
+ padding: 1px 3px;
+}
 
 
 
@@ -1210,9 +1233,27 @@ position: absolute;z-index: 10;}
 
 
 
+.sec section.riangle-left{
+ position: absolute;
+ top: -2px;
+ right: 0px;
+ width: 0;
+ height: 0;
+ border-top: 60px solid transparent;
+ border-bottom: 63px solid transparent;
+ border-right: 75px solid #FFFFFF;
+}
 
-
-
+.sec section.riangle-left span{
+ font-size: 18px;
+ color: #d92763;
+ width: 55px;
+ display: inline-block;
+ margin-left: 30px;
+ margin-top: -24px;
+ font-weight: bold;
+ line-height: 24px;
+}
 
 
 

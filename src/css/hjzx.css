@@ -657,19 +657,21 @@ td{
     border: none;
     background-color: #FFFFFF;
     width: 197px;
-    height: 35px;
-    margin-top: 10px;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 16px;
 }
 
 .call_jq .jq_div .jq_div2 .jq_div2_bd .sec2 input.width140{
     width: 120px;
+    height: 35px;
 }
 
 .call_jq .jq_div .jq_div2 .jq_div2_bd .sec2 input:focus{
     background-color: #ffffff;
     border: 1px solid #d92763;
     width: 195px;
-    height: 33px;
+    height: 38px;
 }
 
 .call_jq .jq_div .jq_div2 .jq_div2_bd .sec2 input.comment:focus{
@@ -685,6 +687,7 @@ td{
     color: #ffffff;
     font-size: 18px;
     margin-left: 146px;
+    margin-top: 8px;
 }
 .call_jq .jq_div .jq_div2 .jq_div2_bd .sec2 input.sbutton:hover{
     background-color: #d92763;
@@ -700,8 +703,9 @@ select.four_select {
     border: none;
     background-color: #FFFFFF;
     width: 197px;
-    height: 35px;
+    height: 40px;
     margin-top: 10px;
+    font-size: 16px;
 }
 
 
@@ -769,7 +773,7 @@ select.four_select {
     display: inline;
     vertical-align: middle;
     height: 35px;
-    margin-top: 13px;
+    margin-top: 0px;
     width: 70px;
 }
 
@@ -1318,7 +1322,7 @@ select.four_select {
 }
 
 .call_ser .p_div2{
-    width: 212px;
+    width: 300px;
     height: 101px;
     margin: 10px 0px 0px -10px;
 }
